@@ -6,7 +6,7 @@ export const personalInfo = {
   shortBio: 'I build scalable web applications, enterprise ERP systems, eCommerce platforms, and modern REST APIs using Laravel, Next.js, React, and modern web technologies.',
   extendedBio: 'I am a passionate and results-driven Full Stack Software Engineer with deep expertise in backend architectures and modern frontend frameworks. I specialize in bridging the robust capabilities of Laravel and PHP with the cutting-edge interactive performance of Next.js and React. With a strong foundation in designing high-availability database schemas, optimized RESTful APIs, and responsive enterprise software, I deliver products that are clean, lightweight, secure, and built to scale.',
   email: 'wsmoasis2@gmail.com',
-  resumeUrl: '/public/resume.pdf', // Placeholder for Resume Download
+  resumeUrl: '/resume.pdf', // Placeholder for Resume Download
   avatarPlaceholderText: 'DFO', // Initials for avatar
 };
 
