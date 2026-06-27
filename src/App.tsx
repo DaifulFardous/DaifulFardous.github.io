@@ -76,9 +76,6 @@ export default function App() {
                 OASIS.<span className="text-cyan-400">DEV</span>
               </span>
             </div>
-            <p className="text-[10px] font-mono text-gray-600 tracking-wider">
-              EST. 2026 // SYSTEM_RENDER_OK
-            </p>
           </div>
 
           {/* Core copyright text */}
@@ -98,7 +95,7 @@ export default function App() {
             }}
             className="text-xs font-mono text-cyan-400 hover:text-cyan-300 bg-cyan-500/5 hover:bg-cyan-500/10 border border-cyan-500/10 hover:border-cyan-500/20 px-4 py-2 rounded-full transition-all cursor-pointer shadow-[0_0_10px_rgba(6,182,212,0.05)]"
           >
-            Back to Top // ↑
+            Back to Top ↑
           </button>
 
         </div>
