@@ -4,14 +4,14 @@ import { motion } from 'motion/react';
 import { skills } from '../data';
 
 export default function Skills() {
-  const [activeTab, setActiveTab] = useState<'all' | 'backend' | 'frontend' | 'tools'>('all');
+ const [activeTab, setActiveTab] = useState<'all' | 'backend' | 'frontend' | 'tools'>('backend');
 
-  const categories = [
-    { id: 'all', label: 'All Tech', icon: CheckCircle },
-    { id: 'backend', label: 'Backend', icon: Server },
-    { id: 'frontend', label: 'Frontend', icon: Layout },
-    { id: 'tools', label: 'Tools', icon: Wrench },
-  ];
+const categories = [
+  { id: 'backend', label: 'Backend', icon: Server },
+  { id: 'frontend', label: 'Frontend', icon: Layout },
+  { id: 'tools', label: 'Tools', icon: Wrench },
+  { id: 'all', label: 'All Tech', icon: CheckCircle },
+];
 
   const filteredSkills = skills.filter(
     (skill) => activeTab === 'all' || skill.category === activeTab
