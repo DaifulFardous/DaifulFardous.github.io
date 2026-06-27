@@ -1,0 +1,6 @@
+{
+  "name": "Personal Portfolio",
+  "description": "A premium, fully responsive personal portfolio website for D.S.M. Daiful Fardous Oasis, a Full Stack Software Engineer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
