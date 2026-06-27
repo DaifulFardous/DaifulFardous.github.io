@@ -13,7 +13,7 @@ export default function Hero() {
   // PROFILE IMAGE REPLACEMENT CONFIGURATION:
   // To replace the profile image, replace the path below with your image URL or import a local file.
   // Example: const profileImageUrl = "/src/assets/profile.jpg";
-  const profileImageUrl = "public/oasis.jpg"; // Leave empty to display the beautiful premium abstract tech avatar placeholder
+  const profileImageUrl = "/oasis.jpg"; // Leave empty to display the beautiful premium abstract tech avatar placeholder
 
   return (
     <section
